@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="test">
+		<div class="swiper-pagination"></div>
+		<div class="test__swiper swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper-slide1">
+					<div class="test__card">
+						<div class="test__title">
+							Какие эмоции вы чаще всего испытываете в отношениях?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item1 active">
+								<input id="test__radiobuttons-itemA1" type="radio" value="1" checked name="nameradio1">
+								<label for="test__radiobuttons-itemA1">Безусловно, положительные: восторг, радость, интерес, страсть, удовлетворение<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item1">
+								<input id="test__radiobuttons-itemB1" type="radio" value="1" name="nameradio1">
+								<label for="test__radiobuttons-itemB1">Наверное, преимущественно отрицательные: волнение, страх, тревогу, разочарование, злость<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item1">
+								<input id="test__radiobuttons-itemC1" type="radio" value="1" name="nameradio1">
+								<label for="test__radiobuttons-itemC1">Всегда по-разному: наши отношения похожи на американские горки<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Насколько вы откровенны с партнером?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item2 active">
+								<input id="test__radiobuttons-itemA2" type="radio" value="1" checked name="nameradio2">
+								<label for="test__radiobuttons-itemA2">На 100%. Я могу полностью открыться перед ним и показать свою уязвимость<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item2">
+								<input id="test__radiobuttons-itemB2" type="radio" value="1" name="nameradio2">
+								<label for="test__radiobuttons-itemB2">На 50%. Мне сложно раскрыть ему свою темную сторону и страшные секреты<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item2">
+								<input id="test__radiobuttons-itemC2" type="radio" value="1" name="nameradio2">
+								<label for="test__radiobuttons-itemC2">На 75%. Я считаю, что партнеры не должны знать всю подноготную друг о друге<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Можно ли назвать ваши отношения доверительными?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item3 active">
+								<input id="test__radiobuttons-itemA3" type="radio" value="1" checked name="nameradio3">
+								<label for="test__radiobuttons-itemA3">Да, мы не храним секреты друг от друга и всегда можем поделиться самым сокровенным<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item3">
+								<input id="test__radiobuttons-itemB3" type="radio" value="1" name="nameradio3">
+								<label for="test__radiobuttons-itemB3">Нет, мы далеко не все можем рассказать друг другу<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item3">
+								<input id="test__radiobuttons-itemC3" type="radio" value="1" name="nameradio3">
+								<label for="test__radiobuttons-itemC3">Скорее да, хотя это не защищает от периодических вспышек ревности и подозрительности<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Приходилось ли вашей паре проходить через измену?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item4 active">
+								<input id="test__radiobuttons-itemA4" type="radio" value="1" checked name="nameradio4">
+								<label for="test__radiobuttons-itemA4">Нет, мы стараемся обсуждать все проблемы в отношениях, чтобы свести этот риск к минимуму<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item4">
+								<input id="test__radiobuttons-itemB4" type="radio" value="1" name="nameradio4">
+								<label for="test__radiobuttons-itemB4">Не знаю, во всяком случае мне о таком неизвестно<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item4">
+								<input id="test__radiobuttons-itemC4" type="radio" value="1" name="nameradio4">
+								<label for="test__radiobuttons-itemC4">Да, у нас был такой кризис, но мы его успешно преодолели<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Что вы больше всего цените в партнере?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item5 active">
+								<input id="test__radiobuttons-itemA5" type="radio" value="1" checked name="nameradio5">
+								<label for="test__radiobuttons-itemA5">Надежность и порядочность<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item5">
+								<input id="test__radiobuttons-itemB5" type="radio" value="1" name="nameradio5">
+								<label for="test__radiobuttons-itemB5">Красоту и сексуальность<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item5">
+								<input id="test__radiobuttons-itemC5" type="radio" value="1" name="nameradio5">
+								<label for="test__radiobuttons-itemC5">Мягкость и доброту<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Готовы ли идти на компромисс с партнером ради сохранения отношений?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item6 active">
+								<input id="test__radiobuttons-itemA6" type="radio" value="1" checked name="nameradio6">
+								<label for="test__radiobuttons-itemA6">Да, мы так всегда и поступаем<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item6">
+								<input id="test__radiobuttons-itemB6" type="radio" value="1" name="nameradio6">
+								<label for="test__radiobuttons-itemB6">Нет, не могу мириться с тем, что у него будет другая точка зрения<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item6">
+								<input id="test__radiobuttons-itemC6" type="radio" value="1" name="nameradio6">
+								<label for="test__radiobuttons-itemC6">Все зависит от темы: есть вопросы, в которых нельзя договориться<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test__card">
+						<div class="test__title">
+							Обсуждаете ли вы с партнером совместное будущее?
+						</div>
+						<div class="test__radiobuttons">
+							<div class="test__radiobuttons-item test__radiobuttons-itemA test__radiobuttons-item7 active">
+								<input id="test__radiobuttons-itemA7" type="radio" value="1" checked name="nameradio7">
+								<label for="test__radiobuttons-itemA7">Конечно, мы регулярно сверяемся, чего хотим в краткосрочной и долгосрочной перспективе<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemB test__radiobuttons-item7">
+								<input id="test__radiobuttons-itemB7" type="radio" value="1" name="nameradio7">
+								<label for="test__radiobuttons-itemB7">Да, но стараемся не заглядывать слишком далеко, предпочитая просто плыть по течению<span></span></label>
+							</div>
+							<div class="test__radiobuttons-item test__radiobuttons-itemC test__radiobuttons-item7">
+								<input id="test__radiobuttons-itemC7" type="radio" value="1" name="nameradio7">
+								<label for="test__radiobuttons-itemC7">Нет, мы не знаем даже, будем ли вместе завтра<span></span></label>
+							</div>
+						</div>
+						<div class="test__btns">
+							<div class="test__btn test__btn-prev">
+								<span>Вернуться</span>
+							</div>
+							<div class="test__btn test__btn-next show-result">
+								<span>Дальше</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="result">
+			<div class="result__inner result1">
+				<div class="result__card">
+					<div class="result__image">
+						<img src="img/yes.png" alt="">
+					</div>
+					<div class="result__title test__title">
+						Ваш результат:
+					</div>
+					<div class="result__text">
+						Вас ждет «долгое и счастливое» совместное будущее. Вашей паре удалось создать крепкие, доверительные отношения, которые обязательно выдержат испытания временем и станут только прочнее.
+					</div>
+				</div>
+				<div class="result__btn">
+					ПРОЙТИ ЕЩЕ РАЗ
+				</div>
+			</div>
+			<div class="result__inner result2">
+				<div class="result__card">
+					<div class="result__image">
+						<img src="img/no.png" alt="">
+					</div>
+					<div class="result__title test__title">
+						Ваш результат:
+					</div>
+					<div class="result__text">
+						Ваша пара не готова к «долгой и счастливой» совместной жизни. Скорее всего, ваши отношения построены на поверхностном, а не глубинном сходстве, поэтому в долгосрочной перспективе конфликтов и разногласий не избежать.
+					</div>
+				</div>
+				<div class="result__btn">
+					ПРОЙТИ ЕЩЕ РАЗ
+				</div>
+			</div>
+			<div class="result__inner result3">
+				<div class="result__card">
+					<div class="result__image">
+						<img src="img/yes1.png" alt="">
+					</div>
+					<div class="result__title test__title">
+						Ваш результат:
+					</div>
+					<div class="result__text">
+						Ваши отношения могут стать «долгими и счастливыми». Вероятно, пока вы не видите в партнере спутника всей вашей жизни, однако это не значит, что ваша пара обречена. При обоюдном желании вы вполне можете выстроить прочные и доверительные отношения, которые станут для вас поддержкой и опорой в трудные времена.
+					</div>
+				</div>
+				<div class="result__btn">
+					ПРОЙТИ ЕЩЕ РАЗ
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
